@@ -51,9 +51,9 @@
         <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
         <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-code"></i> <span>Technical Stack</span></a></li>
         <li><a href="#services" class="nav-link scrollto"><i class="bx bx-folder"></i> <span>Projects</span></a></li>
-        <!-- <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li> -->
         <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-award"></i> <span>Certificates</span></a></li>
         <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        <!-- <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li> -->
       </ul>
     </nav><!-- .nav-menu -->
 
@@ -74,49 +74,59 @@
 
   <main id="main">
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>About</h2>
-          <div class = "row">
-          <img src="assets/img/profile.jpg" style="width:13%; height: 100%; margin-left: 2%;">
-          <p class = "me" style="width:80%;  text-align: justify;">
-            I am a passionate professional with extensive knowledge of computer software and highly knowledgeable in Quality Assurance methodologies and able to perform in a fast-paced agile environment. Have hands-on experience executing Automation Testing using (Seleniun, Cypress and playwright) while interacting with teams to ensure that the product is bug-free before it is released to production. I am a goal-oriented individual with a very flexible mentality.
-            <br>
-            At AntonX i contributed to 6 projects as a software Quality Assurance engineer.
-            <br><br>Experience in:<br>
-          Writing test plans and test cases that are clear, simple, and comprehensive.
-          Detect and track software defects and inconsistencies.
-          Design and develop automation scripts using selenium.
-          Solid knowledge of SQL and scripting. 
-          Analyzing test results on database impacts, errors or bugs, and usability.
-          API Testing using Postman.
-          Cross Browser Testing using Browser-Stack.
-          Load and Performance Testing using Jmeter and Gatling.io.
-          Complete knowledge of SDLC and STLC and Bug Life Cycle.
-          Experience working in an Agile/Scrum development process.
-          <br>
-          <br>
-          Tools:
-          <br>
-          📌 Automation: Cypress | Selenium | Appium.
-          <br>
-          📌 BrowserStack (Compatibility Testing)
-          <br>
-          📌 Webdriver I0: To automate modern web and mobile applications.
-          <br>
-          📌 Postman (API Testing)
-          <br>
-          📌 Confluence, MediaWiki, Excel & Google Sheets (Documentation)
-          <br>
-          📌 Jmeter and Blaze meter (Load and Performance Testing)
-          <br>
-          I have worked on many kind of projects of different sectors like healthcare, E-Com, ERPs and other kind of software and help solving and finding bugs.
-                  
-            </div>  
-        </div>    
-      </div>
-    </section>
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="d-flex flex-column justify-content-center" style="height: 20%;">
+
+      <!-- <section id="about" class="about"> -->
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>About</h2></div>
+          <div class="row">
+            <!-- Uncomment the image if you want to include a profile picture -->
+            <!-- <img src="assets/img/profile.jpg" class="profile-img"> -->
+            <div class="col-lg-12">
+              <p class="me" id="short-about">
+                Software Quality Assurance Engineer with a successful track record, I led the team at AntonX in enhancing software quality through Test Automation, reducing testing time by 20% and optimizing test script performance with Selenium and Playwright, resulting in a 29% performance improvement. I have extensive knowledge in QA methodologies, hands-on experience with automation tools like Selenium, Cypress, and Playwright, and thrive in fast-paced agile environments. 
+          <div id="more-content" style="display: none;">
+          <br><br>I am a passionate professional with extensive knowledge of computer software and highly knowledgeable in Quality Assurance methodologies and able to perform in a fast-paced agile environment. Have hands-on experience executing Automation Testing using (Selenium, Cypress, and Playwright) while interacting with teams to ensure that the product is bug-free before it is released to production. I am a goal-oriented individual with a very flexible mentality.
+              </p>
+              <p class="me">
+                At AntonX, I contributed to six projects, demonstrating flexibility and goal-oriented professionalism.
+              </p>
+              <p class="me">
+                <strong>Experience in:</strong><br>
+                Writing test plans and test cases that are clear, simple, and comprehensive.<br>
+                Detecting and tracking software defects and inconsistencies.<br>
+                Designing and developing automation scripts using (Selenium, Cypress and Appium).<br>
+                Solid knowledge of SQL and scripting.<br>
+                Analyzing test results on database impacts, errors or bugs, and usability.<br>
+                API Testing using Postman.<br>
+                Cross Browser Testing using BrowserStack.<br>
+                Load and Performance Testing using JMeter and BlazeMeter.<br>
+                Complete knowledge of SDLC, STLC, and Bug Life Cycle.<br>
+                Experience working in an Agile/Scrum and Waterfall development process.
+              </p>
+              <p class="me">
+                <strong>Tools:</strong><br>
+                📌 Automation: Cypress | Selenium | Appium.<br>
+                📌 BrowserStack (Compatibility Testing)<br>
+                📌 Webdriver IO: To automate modern web and mobile applications.<br>
+                📌 Postman (API Testing)<br>
+                📌 Confluence, MediaWiki, Excel & Google Sheets (Documentation)<br>
+                📌 JMeter and BlazeMeter (Load and Performance Testing)
+              </p>
+              <p class="me">
+                I have worked on many kinds of projects in different sectors like healthcare, E-Com, ERPs, and other kinds of software, helping to solve and find bugs.
+              </p>
+            </div>
+            <a href="javascript:void(0);" id="read-more" onclick="toggleContent()">Read More...</a>
+          </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
 
     <!-- ======= Facts Section ======= -->
     <section id="facts" class="facts">
@@ -504,47 +514,6 @@
       </div>
     </section>
 
-    <!-- ======= Testimonials Section ======= -->
-<!--DELETE THIS    <section id="testimonials" class="testimonials section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Highlights</h2>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <video autoplay loop muted plays-inline style="margin-top: 0%; margin-left: 15px; margin-bottom: 0%; width: 800px; height: 400px; margin-top: 0%;">
-                  <source src="assets/img/PowerBI.mp4" type="video/mp4">
-                </video> DELETE THIS--> 
-                <!-- <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p> 
-              </div>
-            </div>DELETE THIS--><!-- End testimonial item -->
-
- <!-- DELETE THIS          <div class="swiper-slide">
-              <div class="testimonial-item">
-                <video autoplay loop muted plays-inline class="back-video">
-                  <source src="assets/img/PyHRMTrailer.mp4" type="video/mp4">
-                </video>
-
-              </div>
-            </div>DELETE THIS--> <!-- End testimonial item -->
-
-
- <!--DELETE THIS         </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section>DELETE THIS--><!-- End Testimonials Section -->
-
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div  data-aos="fade-up" style="margin-left: 0%; width: 100%;">
@@ -628,10 +597,10 @@
           background-color: #ffffff;
         }
       </style>
-      <h4 style="margin-left: 5%;">Download my Resume here</h4>
+      <h4 id="resume" style="margin-left: 5%;">Download my Resume here</h4>
       <br>
 
-      <a style="margin-left: 20%;" href="" download class="download-button"> Resume <i class="bx bx-download"></i></a>
+      <a  href="" download class="download-button" style="margin-left: 20%;"> Resume <i class="bx bx-download"></i></a>
 
 
     </div>

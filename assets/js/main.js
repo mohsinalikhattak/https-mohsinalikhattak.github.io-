@@ -267,3 +267,19 @@
   new PureCounter();
 
 })()
+
+function toggleContent() {
+  var moreContent = document.getElementById("more-content");
+  var readMoreLink = document.getElementById("read-more");
+  var shortAbout = document.getElementById("short-about");
+
+  if (moreContent.style.display === "none") {
+    moreContent.style.display = "block";
+    readMoreLink.innerHTML = "Read Less";
+    shortAbout.style.display = "none";
+  } else {
+    moreContent.style.display = "none";
+    readMoreLink.innerHTML = "Read More";
+    shortAbout.style.display = "block";
+  }
+}

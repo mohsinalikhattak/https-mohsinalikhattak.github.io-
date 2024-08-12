@@ -1559,6 +1559,12 @@ section {
     border-radius: 50%;
     background-size: 50%, 50%;
   }
+  .carousel-control-prev-icon {
+margin-right: auto;
+  }
+  .carousel-control-next-icon {
+    margin-left: auto;
+  }
 
   /* Controls Position */
   .carousel-control-prev,

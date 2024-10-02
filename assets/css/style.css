@@ -274,16 +274,21 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  /* background: url("../img/hero-bg.jpg") top right no-repeat; */
+  background: url("../img/hero-bg.jpg") top right no-repeat;
   background-size: cover;
   background-position: center right;
   position: relative;
 }
+#hero img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
 
 @media (max-width: 768px) {
   #hero {
-    /* background: url("../img/hero-bg.png") top right no-repeat; */
-    /* background: url("../img/hero-bg.jpg") top right no-repeat; */
+    background: url("../img/hero-bg.png") top right no-repeat;
+    background: url("../img/hero-bg.jpg") top right no-repeat;
     background-size: contain;
     background-position: center top;
     
@@ -329,12 +334,12 @@ h6 {
   font-weight: 800;
   line-height: 56px;
   color: #45505b;
-    padding-left: 600px;
+    /* padding-left: 300px; */
     /* align-self: auto; */
 }
 
 #hero p {
-    padding-left: 600px;
+    /* padding-left: 300px; */
   color: #45505b;
   margin: 15px 0 0 0;
   font-size: 26px;
@@ -348,7 +353,7 @@ h6 {
 
 
 #hero .social-links {
-    padding-left: 600px;
+    /* padding-left: 300px; */
   margin-top: 30px;
 }
 
@@ -406,14 +411,14 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 
 .section-title h2 {

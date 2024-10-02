@@ -274,7 +274,6 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
   background-size: cover;
   background-position: center right;
   position: relative;
@@ -287,8 +286,8 @@ h6 {
 
 @media (max-width: 768px) {
   #hero {
-    background: url("../img/hero-bg.png") top right no-repeat;
-    background: url("../img/hero-bg.jpg") top right no-repeat;
+
+
     background-size: contain;
     background-position: center top;
     

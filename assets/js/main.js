@@ -276,7 +276,7 @@ function toggleContent() {
   if (moreContent.style.display === "none") {
     moreContent.style.display = "block";
     readMoreLink.innerHTML = "Read Less";
-    shortAbout.style.display = "none";
+    shortAbout.style.display = "block";
   } else {
     moreContent.style.display = "none";
     readMoreLink.innerHTML = "Read More";

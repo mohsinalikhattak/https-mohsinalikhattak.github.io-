@@ -440,17 +440,17 @@ section {
   border: none; 
   border-radius: 20px;
   display: block;
-  margin: 20px auto; /* Center the button horizontally */
+  margin: 20px auto; 
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
 }
 
-/* If you want to center both vertically and horizontally */
+
 .col-lg-12 {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centers the button horizontally */
+  align-items: center; 
 }
 #read-more:hover{
   color: #fff;
